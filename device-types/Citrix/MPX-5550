@@ -1,0 +1,73 @@
+---
+manufacturer: CITRIX
+model: MPX-5550
+slug: mpx-5550
+part_number: MPX-5550
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+comments: ''
+console-ports:
+- name: Console Port
+  type: de-9
+  label: Console Port
+  description: RS232 serial console port.
+power-ports:
+- name: PWR
+  type: iec-60320-c14
+  maximum_draw: 300
+  allocated_draw: null
+  label: PWR
+  description: "Single power supply, rated at 300 watts, 110\u2013220 volts."
+interfaces:
+- name: Ethernet 0/1
+  type: 1000base-t
+  mgmt_only: true
+  label: Ethernet 0/1
+  description: Two 10/100/1000Base-T copper Ethernet management ports (RJ45), numbered
+    0/1 and 0/2 from left to right. The management port is used to connect directly
+    to the appliance for system administration
+- name: Ethernet 0/2
+  type: 1000base-t
+  mgmt_only: true
+  label: Ethernet 0/2
+  description: Two 10/100/1000Base-T copper Ethernet management ports (RJ45), numbered
+    0/1 and 0/2 from left to right. The management port is used to connect directly
+    to the appliance for system administration
+- name: Ethernet 1/1
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1/1
+  description: Six 10/100/1000Base-T copper Ethernet ports numbered 1/1, 1/2, 1/3,
+    1/4, 1/5, and 1/6 from left to right.
+- name: Ethernet 1/2
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1/2
+  description: Six 10/100/1000Base-T copper Ethernet ports numbered 1/1, 1/2, 1/3,
+    1/4, 1/5, and 1/6 from left to right.
+- name: Ethernet 1/3
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1/3
+  description: Six 10/100/1000Base-T copper Ethernet ports numbered 1/1, 1/2, 1/3,
+    1/4, 1/5, and 1/6 from left to right.
+- name: Ethernet 1/4
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1/4
+  description: Six 10/100/1000Base-T copper Ethernet ports numbered 1/1, 1/2, 1/3,
+    1/4, 1/5, and 1/6 from left to right.
+- name: Ethernet 1/5
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1/5
+  description: Six 10/100/1000Base-T copper Ethernet ports numbered 1/1, 1/2, 1/3,
+    1/4, 1/5, and 1/6 from left to right.
+- name: Ethernet 1/6
+  type: 1000base-t
+  mgmt_only: false
+  label: Ethernet 1/6
+  description: Six 10/100/1000Base-T copper Ethernet ports numbered 1/1, 1/2, 1/3,
+    1/4, 1/5, and 1/6 from left to right.
